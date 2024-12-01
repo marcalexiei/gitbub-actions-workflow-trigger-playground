@@ -3,17 +3,17 @@ name: Root CI
 on:
   push:
     branches:
-      - main
+      - "main"
     paths:
       - ".github/**"
-      - "/*"
+      - "*"
 
   pull_request:
     branches:
-      - main
+      - "main"
     paths:
       - ".github/**"
-      - "/*"
+      - "*"
 
 jobs:
   test:

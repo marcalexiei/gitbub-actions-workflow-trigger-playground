@@ -3,14 +3,14 @@ name: Crates CI
 on:
   push:
     branches:
-      - main
+      - "main"
     paths:
       - ".github/**"
       - "crates/**"
 
   pull_request:
     branches:
-      - main
+      - "main"
     paths:
       - ".github/**"
       - "crates/**"

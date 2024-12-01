@@ -3,18 +3,18 @@ name: Packages CI
 on:
   push:
     branches:
-      - main
+      - "main"
     paths:
       - ".github/**"
-      - "/package.json"
+      - "package.json"
       - "packages/**"
 
   pull_request:
     branches:
-      - main
+      - "main"
     paths:
       - ".github/**"
-      - "/package.json"
+      - "package.json"
       - "packages/github/**"
 
 jobs:
