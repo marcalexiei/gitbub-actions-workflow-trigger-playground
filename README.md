@@ -1,6 +1,6 @@
 # gitbub-actions-workflow-trigger-playground
 
-Testing GitHub actions trigger
+Testing GitHub actions trigger!
 
 > [!NOTE]
 > Repository to test trigger using `on.<push | pull_request>.paths`
