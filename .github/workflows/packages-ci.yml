@@ -6,7 +6,8 @@ on:
       - "main"
     paths:
       - ".github/**"
-      - "package.json"
+      - "*"
+      - "!Cargo.toml"
       - "packages/**"
 
   pull_request:
